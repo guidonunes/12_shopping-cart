@@ -130,3 +130,5 @@ class ShoppingCart {
       </div>`;
   }
 };
+
+const cart = new ShoppingCart();
