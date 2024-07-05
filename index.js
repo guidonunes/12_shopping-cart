@@ -145,6 +145,10 @@ class ShoppingCart {
       this.items = [];
       this.total = 0;
       productsContainer.innerHTML = "";
+      totalNumberOfItems.textContent = 0;
+      cartSubTotal.textContent = 0;
+      cartTaxes.textContent = 0;
+      cartTotal.textContent = 0;
     }
   }
 
